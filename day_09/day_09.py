@@ -1,6 +1,5 @@
 with open("input.txt", "r") as data_input:
-    numbers = data_input.readlines()
-    numbers = [int(number.rstrip()) for number in numbers]
+    numbers = [int(line.rstrip()) for line in data_input]
 
 confirmed_numbers = []
 

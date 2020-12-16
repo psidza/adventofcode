@@ -1,7 +1,6 @@
 # Part 1
 with open("input.txt", "r") as data_input:
-    adaptors = data_input.readlines()
-    adaptors = sorted([int(adaptor.rstrip()) for adaptor in adaptors])
+    adaptors = sorted([int(adaptor.rstrip()) for adaptor in data_input])
 
 # preppending 0 and appending 3 to the list
 adaptors.insert(0, 0)

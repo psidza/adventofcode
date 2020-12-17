@@ -14,7 +14,7 @@ print(f"Part 1 | Number of 1-jolt differences times number of 3-jolt differences
 
 # Part 2
 # generating list of ways to each adaptor in the list by calculating acceptable difference in jolts
-# number of acceptable joltages between 2 adaptors
+# number of acceptable joltages between 2 adaptors results in increased number of ways
 number_of_ways = [1]
 for i in range(1, len(adapters)):
     number_of_ways.append(0)
